@@ -3,13 +3,30 @@
   border: solid 10px whitesmoke;
 }
 
+.container{
+  height: 400px;
+  display: flex;
+  background-color: #949494;
+  /*Always on the main axis*/
+  justify-content: end;
+  /*Always on the cross axis*/
+  align-items: flex-start;
+}
+
 button{
-  height: 100px;
+  height: 130px;
+  width: 130;
+  background: #AEAEAE;
+  color: white;
+  margin: 10px;
+
+  display: flex;
+  align-items: center;
 }
 
 .result{
   height: 100px;
   width: 100px;
-  background-color: black;
+  background: black;
   color: white;
 }
