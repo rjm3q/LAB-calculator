@@ -1,3 +1,17 @@
 body{
-  background-color: darkseagreen;
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container {
+  min-height: 400px;
+  display: flex;
+  flex: 0 1 60%;
+  min-width: 400px;
+};
+.button :nth-child(3-7){
+  display: flex;
+  flex-flow: column;
+  justify-content: right;
 }
