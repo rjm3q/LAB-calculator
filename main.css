@@ -1,17 +1,15 @@
-body{
-  min-height: 100vh;
-  display:flex;
-  justify-content: center;
-  align-items: flex-start;
+#backdrop{
+  width: 402px;
+  border: solid 10px whitesmoke;
 }
-.container {
-  min-height: 400px;
-  display: flex;
-  flex: 0 1 60%;
-  min-width: 400px;
-};
-.button :nth-child(3-7){
-  display: flex;
-  flex-flow: column;
-  justify-content: right;
+
+button{
+  height: 100px;
+}
+
+.result{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  color: white;
 }
