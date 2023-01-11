@@ -1,17 +1,32 @@
-body{
-  min-height: 100vh;
-  display:flex;
-  justify-content: center;
+#backdrop{
+  width: 402px;
+  border: solid 10px whitesmoke;
+}
+
+.container{
+  height: 400px;
+  display: flex;
+  background-color: #949494;
+  /*Always on the main axis*/
+  justify-content: end;
+  /*Always on the cross axis*/
   align-items: flex-start;
 }
-.container {
-  min-height: 400px;
+
+button{
+  height: 130px;
+  width: 130;
+  background: #AEAEAE;
+  color: white;
+  margin: 10px;
+
   display: flex;
-  flex: 0 1 60%;
-  min-width: 400px;
-};
-.button :nth-child(3-7){
-  display: flex;
-  flex-flow: column;
-  justify-content: right;
+  align-items: center;
+}
+
+.result{
+  height: 100px;
+  width: 100px;
+  background: black;
+  color: white;
 }
