@@ -1,10 +1,44 @@
 #backdrop{
-  width: 402px;
-  border: solid 10px whitesmoke;
+  width: 450px;
+  height: 450px;
+  border: solid 10px darkslategray;
+}
+ #container{
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background: darkviolet;
 }
 
-button{
-  height: 100px;
+/* .button{ */
+  height: 50px;
+  flex-basis: 50px;
+  background: orangered;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  /*Makes the buttons a flex box*/
+  display: flex;
+  flex-wrap: wrap;
+  /*Makes text go to the center of each button*/
+  justify-content: center;
+  align-items: center;
+/* } */
+.numberBtn {
+  height: 50px;
+  flex-basis: 50px;
+  background: orangered;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  /*Makes the buttons a flex box*/
+  display: flex;
+  flex-wrap: wrap;
+  /*Makes text go to the center of each button*/
+  justify-content: center;
+  align-items: center;
 }
 
 .result{
@@ -12,4 +46,9 @@ button{
   width: 100px;
   background-color: black;
   color: white;
+  margin: 5px;
+  display: flex;
+  /*makes the text in the box stay right and then bottom of box*/
+  justify-content: right;
+  align-items: flex-end;
 }
