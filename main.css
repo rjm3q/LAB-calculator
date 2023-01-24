@@ -10,41 +10,24 @@
   background: darkviolet;
 }
 
-/* .button{ */
-  height: 50px;
-  flex-basis: 50px;
-  background: orangered;
-  color: black;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  /*Makes the buttons a flex box*/
+.container{
+  height: 400px;
   display: flex;
-  flex-wrap: wrap;
-  /*Makes text go to the center of each button*/
-  justify-content: center;
-  align-items: center;
-/* } */
-.numberBtn {
-  height: 50px;
-  flex-basis: 50px;
-  background: orangered;
-  color: black;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  /*Makes the buttons a flex box*/
-  display: flex;
-  flex-wrap: wrap;
-  /*Makes text go to the center of each button*/
-  justify-content: center;
-  align-items: center;
+  background-color: #949494;
+  /*Always on the main axis*/
+  justify-content: end;
+  /*Always on the cross axis*/
+  align-items: flex-start;
+}
+
+button{
+  height: 100px;
 }
 
 .result{
   height: 100px;
   width: 100px;
-  background-color: black;
+  background: black;
   color: white;
   margin: 5px;
   display: flex;
